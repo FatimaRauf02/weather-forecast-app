@@ -1,9 +1,9 @@
 # Waypoint Weather
 
 A full-stack weather and trip-planning app built for the PM Accelerator AI Engineer Intern
-technical assessment (Full Stack — Tech Assessment #1 + #2).
+technical assessment (Full Stack Development — Tech Assessment #1 + #2).
 
-Built by **Fatima**.
+Built by **Fatima Rauf**.
 
 ## What this app does
 
@@ -12,7 +12,7 @@ simple idea: most people check the weather because they're *deciding something* 
 wear, whether to pack a jacket, whether to visit City A or City B next week. So on top of the
 required features, this app adds a travel-planning layer on top of raw forecast data.
 
-### Core features (from the assessment brief)
+### Core features 
 - Search any location by name (city, town, landmark) with live autocomplete
 - "Use my location" via browser geolocation
 - Current weather with icons, humidity, wind, UV index, sunrise time
@@ -28,7 +28,7 @@ required features, this app adds a travel-planning layer on top of raw forecast 
 - Export saved trips to CSV, JSON, or Markdown
 - Graceful error handling throughout (location not found, API failures, offline)
 
-### Extra features (the "stand out" part)
+### Extra features 
 - **Ambiguous location handling** — searching "Springfield" shows every matching Springfield
   (with state/country) instead of silently picking one
 - **Typo suggestions** — a misspelled city name gets a "Did you mean...?" suggestion using
@@ -94,13 +94,4 @@ See `backend/README.md` and `frontend/README.md` for setup instructions for each
    ```
 3. Open the URL Vite prints (usually `http://localhost:5173`).
 
-## Notes on design decisions
 
-- **Why MongoDB over SQL**: saved trips are mostly self-contained documents (location, date
-  range, a forecast array, notes) with no need for joins — a document store fits naturally.
-- **Why Open-Meteo over OpenWeather/other providers**: no API key, no rate-limit headaches
-  during development or demoing, and it provides geocoding, forecast, and historical data
-  through one consistent provider.
-- **Why no AI/LLM calls anywhere in this app**: the packing suggestions and alerts are
-  intentionally rule-based rather than calling an LLM. This is a weather CRUD assessment, not
-  a GenAI assessment — adding an AI call here would be scope creep, not a feature.
