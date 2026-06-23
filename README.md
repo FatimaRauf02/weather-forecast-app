@@ -12,6 +12,21 @@ simple idea: most people check the weather because they're *deciding something* 
 wear, whether to pack a jacket, whether to visit City A or City B next week. So on top of the
 required features, this app adds a travel-planning layer on top of raw forecast data.
 
+### Screenshots
+
+<img width="955" height="441" alt="1" src="https://github.com/user-attachments/assets/30227112-7f6b-490b-ab27-8a1357c086b2" />
+<img width="960" height="426" alt="2" src="https://github.com/user-attachments/assets/6461909d-187c-49fb-92da-0bfc992ae995" />
+<img width="944" height="401" alt="3" src="https://github.com/user-attachments/assets/26d4d8a5-a777-41ff-a9c0-45b8a772e0b7" />
+<img width="802" height="390" alt="4" src="https://github.com/user-attachments/assets/ea92929d-727d-4729-922b-23845f843ff2" />
+<img width="463" height="443" alt="5" src="https://github.com/user-attachments/assets/bd770f8e-4dd1-43fb-b58c-ad8d05aee4f7" />
+<img width="508" height="435" alt="6" src="https://github.com/user-attachments/assets/6e6f750d-0852-4a87-833f-e92ae8f2c736" />
+<img width="406" height="303" alt="7" src="https://github.com/user-attachments/assets/fe34444e-946e-4fdc-b013-b45de452c74c" />
+<img width="353" height="424" alt="8" src="https://github.com/user-attachments/assets/1645441b-4c25-4da1-b51d-26f30cc1155f" />
+<img width="294" height="183" alt="9" src="https://github.com/user-attachments/assets/0ec0653d-89e1-445f-a6bc-882c958f2c2f" />
+
+
+
+
 ### Core features 
 - Search any location by name (city, town, landmark) with live autocomplete
 - "Use my location" via browser geolocation
